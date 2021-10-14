@@ -1,6 +1,8 @@
 ﻿using System.Threading.Tasks;
+using FitchefCrawler.Data.Models;
+using FitchefCrawler.Core;
 
-namespace FitchefCrawler
+namespace FitchefCrawler.Crawler
 {
     internal class Program
     {
@@ -13,7 +15,7 @@ namespace FitchefCrawler
         {
             var crawler = new FitchefCrawler<Recipe>();
 
-            await crawler.Crawl();
+            await crawler.CrawlAsync();
         }
     }
 }

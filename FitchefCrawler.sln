@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitchefCrawler", "FitchefCrawler\FitchefCrawler.csproj", "{122D1DC2-F552-45E8-B872-EDB0DF95383D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitchefCrawler.Core", "FitchefCrawler.Core\FitchefCrawler.Core.csproj", "{58EE4FB8-940D-457A-B1FD-4FBC7A603AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitchefCrawler.Data", "FitchefCrawler.Data\FitchefCrawler.Data.csproj", "{55BD327D-203B-4C79-B953-11763AEA3DA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{122D1DC2-F552-45E8-B872-EDB0DF95383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122D1DC2-F552-45E8-B872-EDB0DF95383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122D1DC2-F552-45E8-B872-EDB0DF95383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EE4FB8-940D-457A-B1FD-4FBC7A603AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EE4FB8-940D-457A-B1FD-4FBC7A603AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EE4FB8-940D-457A-B1FD-4FBC7A603AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EE4FB8-940D-457A-B1FD-4FBC7A603AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BD327D-203B-4C79-B953-11763AEA3DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BD327D-203B-4C79-B953-11763AEA3DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BD327D-203B-4C79-B953-11763AEA3DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BD327D-203B-4C79-B953-11763AEA3DA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -6,4 +6,9 @@
         <RootNamespace>FitchefCrawler</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FitchefCrawler.Core\FitchefCrawler.Core.csproj" />
+      <ProjectReference Include="..\FitchefCrawler.Data\FitchefCrawler.Data.csproj" />
+    </ItemGroup>
+
 </Project>
